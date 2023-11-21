@@ -1,0 +1,128 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  background-color: #aed389;
+}
+
+.login-container {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.slideshow-container {
+  width: 37.5%;
+  height: 75%;
+  margin-right: 10%;
+  margin-top: 7%;
+}
+
+.form-container {
+  width: 30%;
+  height: 600px;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: white;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.input-container {
+  margin-bottom: 20px;
+  margin-left: 50px;
+}
+
+.input-container label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.input-container input {
+  width: 80%;
+  padding: 10px;
+  margin-bottom: -20px;
+  border-top: none; 
+  border-left: none;
+  border-right: none;
+  border-bottom: 2px solid #ccc; 
+}
+
+.input-container a {
+  font-size: 12px;
+  color: blue;
+  text-decoration: none;
+  display: block;
+  margin-top: 15px; 
+}
+
+.button-container button {
+  width: 78%;
+  padding: 10px;
+  margin-left: 45px;
+  background-color: orange;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.social-buttons-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+  margin-right: 50px;
+}
+
+/* Style for Microsoft button */
+.social-buttons-container button:nth-child(1) {
+  background-color: #1c9dcf;
+  color: white;
+}
+
+/* Style for LinkedIn button */
+.social-buttons-container button:nth-child(2) {
+  background-color: #1c9dcf;
+  color: white;
+}
+
+/* Style for Google button */
+.social-buttons-container button:nth-child(3) {
+  background-color: #f46c42;
+  color: white;
+}
+
+/* Style for Magnet button */
+.social-buttons-container button:nth-child(5) {
+  background-color: #f46c42;
+  color: white;
+}
+
+/* Style for Apple button */
+.social-buttons-container button:nth-child(4) {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+
+
+.signup-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.signup-container a {
+  font-size: 12px;
+  color: blue;
+  text-decoration: none;
+  margin-left: 5px;
+}
